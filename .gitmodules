@@ -1,0 +1,3 @@
+[submodule "iterm/iterm-monokai"]
+	path = iterm/iterm-monokai
+	url = https://github.com/jonschlinkert/iterm-monokai
