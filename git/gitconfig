@@ -1,0 +1,10 @@
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
+[user]
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHxn2v5U1FYyGmGg4IVAltNjQ7nuQO1jYPvWKOpUuPLC
+	email = mail@ryo-o.com
+	name = ryomanden

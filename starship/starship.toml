@@ -1,0 +1,110 @@
+# Starship prompt configuration
+# https://starship.rs/config/
+
+command_timeout = 200
+
+[directory]
+truncation_length = 3
+
+[git_status]
+ignore_submodules = false
+
+# 不要なモジュールを無効化（走査コスト削減）
+[gcloud]
+disabled = false
+
+[java]
+disabled = false
+
+[nodejs]
+disabled = false
+
+[ruby]
+disabled = false
+
+[php]
+disabled = false
+
+[dotnet]
+disabled = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[erlang]
+disabled = true
+
+[golang]
+disabled = false
+
+[haskell]
+disabled = true
+
+[julia]
+disabled = false
+
+[kotlin]
+disabled = false
+
+[lua]
+disabled = false
+
+[nim]
+disabled = true
+
+[perl]
+disabled = false
+
+[scala]
+disabled = true
+
+[swift]
+disabled = false
+
+[vagrant]
+disabled = true
+
+[zig]
+disabled = true
+
+[ocaml]
+disabled = true
+
+[dart]
+disabled = true
+
+[vlang]
+disabled = true
+
+[purescript]
+disabled = true
+
+[crystal]
+disabled = true
+
+[cmake]
+disabled = false
+
+[cobol]
+disabled = true
+
+[daml]
+disabled = true
+
+[buf]
+disabled = true
+
+[meson]
+disabled = true
+
+[red]
+disabled = true
+
+[opa]
+disabled = true
+
+[solidity]
+disabled = true
